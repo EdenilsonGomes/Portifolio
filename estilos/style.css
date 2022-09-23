@@ -30,7 +30,7 @@ body {
 }
 
 header {
-    
+    background-color: var(--cor3);
 }
 
 #conteudo-topo {
@@ -42,10 +42,44 @@ header {
 
 #conteudo-topo > nav {
     float: right;
+    font-size: 30px;
+    padding: 20px;
 }
 
-section {
+main {
+    padding-top: 40px;
+}
+
+#section-1 {
     background-color: var(--cor5);
     width: 1400px;
     margin: auto;
+    font-size: 75px;
+}
+
+#sobre-mim {
+    width: 1400px;
+    height: 650px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#section-2 {
+    width: 700px;
+}
+
+#section-3 {
+    background-color: var(--cor4);
+    width: 700px;
+    font-size: 50px;
+    float: right;
+    display: block;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+    
 }
