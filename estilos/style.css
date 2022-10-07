@@ -95,6 +95,25 @@ main {
 
 }
 
+
+    .resp-container {
+        display: flex;
+        flex-flow: row;
+        position: relative;
+        overflow-x: scroll;
+        
+        width: 50%;
+        height: 21em;
+        
+        
+    }
+    .resp-item {
+        white-space: nowrap;
+        width: 74em;
+        padding-left: 25vh;
+        
+    }
+
 footer {
     background-color: black;
     text-align: center;
