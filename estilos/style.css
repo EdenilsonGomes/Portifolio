@@ -64,16 +64,15 @@ main {
     float: left;
     /* width: 700px;  */
     
-    display: block;
+    
 }
 
 #section-2 > img {
     
     height: 189px;
     margin: auto;
-    
-    
-
+    display: block;
+ 
 }
 
 #bloco {
