@@ -71,8 +71,7 @@ header {
 
 #menu > a:hover /* nav */ {
     
-    background-color: rgb(0, 136, 255);
-    text-decoration: underline;
+    text-decoration: underline rgb(33, 146, 199);
     
 }
 
@@ -107,6 +106,17 @@ nav {
     font-size: 50px;
     line-height: 140px;
     padding-bottom: 300px;
+}
+
+#scroll {
+
+    width: 1500px;
+    margin: auto;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+    
 }
 
 #bloco-2 {
