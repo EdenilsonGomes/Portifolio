@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -94,9 +95,8 @@ nav {
 }
 
 #bloco-1 {
-    width: 1500px;
-    height: 430
-    px;
+    width: 1400px;
+    height: 430px;
     
 }
 
@@ -108,7 +108,7 @@ nav {
 }
 
 #bloco-1 {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 140px;
     padding-bottom: 300px;
 }
@@ -128,11 +128,11 @@ nav {
       .mouse_scroll {
     
         display: block;
-          margin: 0 auto;
-          width: 24px;
-          height: 100px;
-          padding-bottom: 30px;
-          
+        margin: auto;
+        width: 24px;
+        height: 100px;
+        padding-bottom: 30px;
+        
       }
       
       .m_scroll_arrows
@@ -297,21 +297,28 @@ nav {
 
 #bloco-2 {
     color: white;
-    background-color: #0A0C11;
+    background-color: #171c27;
     width: 1200px;
     height: 440px;
     margin: auto;
     border-radius: 30px;
-    border: #FFFFFF26 solid 1px;
+    
 }
 
 #imagem-quem-sou {
     width: 35%;
     height: 100%;
-    border: 1px solid white;
+    
     float: left;
     border-radius: 30px;
     
+    
+}
+
+#imagem-quem-sou > img {
+    position: relative;
+    top: 50px;
+    left: 50px;
 }
 
 
@@ -320,15 +327,30 @@ nav {
     width: 64%;
     height: 100%;
     border-radius: 30px;
-    border: 1px solid white;
+    
     float: right;
     
 }
 
-#desricao-quem-sou > h1, p {
-    padding: 20px 0px 0px 20px;
+#desricao-quem-sou > p {
+    padding: 20px;
 }
 
 #desricao-quem-sou > h1 {
     text-align: center;
+    padding-top: 30px;
+}
+
+#bloco-3 {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 50px;
+}
+
+#bloco-4 {
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
 }
