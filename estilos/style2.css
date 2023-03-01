@@ -7,30 +7,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-:root {
-    
-    --cor1:#F2E641;
-    --cor2:#F29D35;
-    --cor3:#73532C;
-    --cor4:#402A17;
-    --cor5:#8C2703;
-    
-    /* --cor0: #c5ebd6;
-    --cor1: #83e1ad;
-    --cor2: #3ddc84;
-    --cor3: #2fa866;
-    --cor4: #1a5c37;
-    --cor5: #063d1e;
-
-    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque:'Bebas Neue', 'cursive'; 
-    --fonte-android: 'android', 'cursive'; */
-}
 
 body {
-    background-color: #07080B;
-    font-family: lu;
-    
+    background-color: #07080B;   
 }
 
 #container-logos {
@@ -39,7 +18,7 @@ body {
     bottom: 0%;
     right: 3%;
     background-color: white;
-    border-radius: ;
+
 }
 
 #container-logos > a >  img {
@@ -52,15 +31,12 @@ body {
 
 header {
     display: block;
-    width: 100%;
+    width: 100vw;
     height: 100px;
     background-color: rgb(0, 0, 0);
     position: fixed;
     z-index: 999;
     border-bottom: #0E0E0E solid 1px;
-    
-    
-
 }
 
 #conteudo-topo {
@@ -68,8 +44,6 @@ header {
     height:  100px;
     padding-top: 35px;
     padding-bottom:40px;
-    margin: auto; 
-
 }
 
 
@@ -94,37 +68,22 @@ nav {
 
 }
 
+
+
 #bloco-1 {
-    width: 1400px;
-    height: 430px;
     
-}
-
-#bloco-1 {
     color: white;
-    margin: auto;
-    padding-top: 200px;
-    padding-bottom: ;
-}
-
-#bloco-1 {
-    font-size: 40px;
+    font-size: clamp(1em, 1em + 3vw, 4em);
     line-height: 140px;
-    padding-bottom: 300px;
+    margin: 0 auto;
+    padding: 200px 0px 200px 0px;
+    width: 1100px;
+    height: 430px;
 }
-
-    /*width: 1500px;
-    margin: auto;
-    color: antiquewhite;
-    text-align: center;
-    font-size: 20px;
-    padding-bottom: 20px; */
     
     :before, :after {
         -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
-       }
-      
-      
+       }    
       .mouse_scroll {
     
         display: block;
@@ -308,11 +267,8 @@ nav {
 #imagem-quem-sou {
     width: 35%;
     height: 100%;
-    
     float: left;
-    border-radius: 30px;
-    
-    
+    border-radius: 30px;   
 }
 
 #imagem-quem-sou > img {
@@ -327,9 +283,7 @@ nav {
     width: 64%;
     height: 100%;
     border-radius: 30px;
-    
     float: right;
-    
 }
 
 #desricao-quem-sou > p {
@@ -354,7 +308,6 @@ nav {
   max-width: 1200px;
   min-width: 600px;
   height: 500px;
-  
   margin: auto;
   flex-flow: row wrap;
   justify-content: space-around;
