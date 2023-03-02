@@ -42,8 +42,7 @@ header {
 #conteudo-topo {
      width: 90%;
     height:  100px;
-    padding-top: 35px;
-    padding-bottom:40px;
+    line-height: 100px;
 }
 
 
