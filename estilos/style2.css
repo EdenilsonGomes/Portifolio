@@ -7,6 +7,17 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+  --cor0: black;
+  --cor0: ;
+  --cor0: ;
+  --cor0: ;
+
+  --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+  --fonte-destaque:'Bebas Neue', 'cursive'; 
+  
+}
+
 
 body {
     background-color: #07080B;   
