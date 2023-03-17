@@ -8,8 +8,11 @@
 }
 
 :root {
-  --cor0: rgba(0, 0, 0, 0.452);
-  --cor1: #13131F;
+  --cor0: #0A0A11;
+  --cor1:;
+  --cor2: #592bd850;
+  --cor3: #13131F;
+  --cor4:;
 
   --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
   --fonte-destaque:'Bebas Neue', 'cursive'; 
@@ -18,7 +21,7 @@
 
 
 body {
-    background-color: var(--cor1);   
+    background-color: var(--cor3);   
 }
 
 #container-logos {
@@ -42,10 +45,10 @@ header {
     display: block;
     width: 100vw;
     height: 100px;
-    background-color: var(--cor0);
+    background-color: var(--cor3);
     position: fixed;
     z-index: 999;
-    border-bottom: #0E0E0E solid 1px;
+    border-bottom: #592bd850 solid 1px;
     line-height: 100px;
     
     text-align: center;
@@ -81,7 +84,7 @@ header {
     
     line-height: 100px;
     text-align: center;
-    padding: 200px 0px 200px 0px;
+    padding-top: 200px;
     
     height: 430px;
 }
@@ -102,16 +105,7 @@ header {
     }
    
 }
-
-@media (max-width: 600px) {
-  .mouse_scroll {
-    visibility: hidden;
-  }
-
-  #bloco-1 {
-    padding-bottom: 50px;
-  }
-}
+  
     :before, :after {
         -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
        }    
@@ -134,8 +128,8 @@ header {
         -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
         transform: rotate(45deg);
          
-        border-right: 2px solid white;
-        border-bottom: 2px solid white;
+        border-right: 2px solid var(--cor2);
+        border-bottom: 2px solid var(--cor2);
         margin: 0 0 3px 4px;
         
         width: 16px;
@@ -196,7 +190,7 @@ header {
         width: 24px;
         border-radius: 14px;
         transform: none;
-        border: 2px solid white;
+        border: 2px solid var(--cor2);
         top: 170px;
       }
       
@@ -205,12 +199,12 @@ header {
         width: 2px;
         display: block;
         margin: 5px auto;
-        background: white;
+        background: var(--cor2);
         position: relative;
         
         height: 4px;
         width: 4px;
-        border: 2px solid #fff;
+        border: 2px solid var(--cor2)
         -webkit-border-radius: 8px;
                 border-radius: 8px;
       }
@@ -287,7 +281,7 @@ header {
 
 #bloco-2 {
     color: white;
-    background-color: #171c27;
+    background-color: #171c276b;
     margin: auto;
     height: 300px;
     width: 800px;
